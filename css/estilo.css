@@ -1,0 +1,74 @@
+body{
+  background-color: #000;
+}
+.title{
+  color: #9999ff;
+  font-size: 1em;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 20px;
+}
+.container{
+	width: 1080px;
+	margin: 0px auto;
+  padding: 7px;
+}
+.title1{
+  color: #66ccff;
+  font-size: 1em;
+	font-family: "Blue Eyes - Personal Use", Arial ,Georgia, Serif;
+	font-size: 35px;
+  text-align: center;
+}
+.titlep{
+  color: #66ffcc;
+  font-size: 1em;
+	font-family: "Blue Eyes - Personal Use", Arial ,Georgia, Serif;
+	font-size: 50px;
+  text-align: center;
+}
+.title2{
+  color: #9900cc;
+  font-size: 1em;
+	font-family: "Blue Eyes - Personal Use", Arial ,Georgia, Serif;
+	font-size: 30px;
+}
+.text{
+  color: #ccc;
+  font-size: 1em;
+	font-family: "Century Gothic", Arial ,Georgia, Serif;
+	font-size: 18px;
+  text-align: justify;
+}
+.text1{
+  color: #ff66ff;
+  font-size: 1em;
+	font-family: "Century Gothic", Arial ,Georgia, Serif;
+	font-size: 18px;
+  text-align: justify;
+}
+.imagen{
+	width: 200px;
+	height: 100px;
+	border:4px solid #cc66cc;
+	border-radius: 20%;
+}
+.imagen:hover{
+	width: 200px;
+	height: 100px;
+	border: 4px solid #6699cc;
+	border-radius: 50%;
+	transform: 3s;
+}
+.quizz{
+  width: 75%;
+	height: 50%;
+	border:4px solid #00cccc;
+	border-radius: 5%;
+}
+.quizz:hover{
+	width: 75%;
+	height: 55%;
+	border: 4px solid #9933ff;
+	border-radius: 5%;
+	transform: 3s;
+}
