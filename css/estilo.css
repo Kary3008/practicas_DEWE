@@ -72,9 +72,15 @@ body{
 	border-radius: 5%;
 	transform: 3s;
 }
-
+.form{
+  color: #ccc;
+  font-size: 1em;
+	font-family: "Century Gothic", Arial ,Georgia, Serif;
+	font-size: 18px;
+  text-align: left;
+}
 .cajas{
-  width: 80%;
+  width: 100%;
   background: transparent;
   border-right: 0px;
   border-left: 0px;
