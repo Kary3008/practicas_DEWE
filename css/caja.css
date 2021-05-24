@@ -1,0 +1,8 @@
+.caja{
+  height: 120px;
+  width: 500px;
+  background-color: pink;
+  padding: 30px;
+  margin: 20px, 50px;
+  border: 10px solid #000;
+}
