@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device- width, initial-scale=1">
+    <title>Uso de If anidados con JavaScript y Ciclo Do</title>
+  </head>
+  <body>
+    <script>
+      //Datos del autor de esta práctica.
+      document.write("<h1>Uso de If anidados con JavaScript y Ciclo Do</h1>");
+      document.write("Práctica de: Karina Bautista Bautista");
+      document.write("<br>");
+      document.write("Grupo: 605");
+      document.write("<br><br>");
+      //inicia bucle para pedir calificacion e introducir más de una nota.
+      do{
+        //pedimos la calificacion a traves del prompt y lo guarda en la variable.
+      var cal = prompt("Introduce tu calificación: ");
+      //validar que la calificacion sea un numero
+      if(Number(cal)==cal) {
+      //verificar que la calificacion este entre 0 y 10, comprobamos el rango y muestra un mensaje
+        if(cal > 0 && cal <= 10){
+
+          if(cal <3){
+            //muestra una alerta que es muy deficiente.
+            alert("Muy deficiente.");
+          }
+            else if(cal < 5 ){
+            //muestra una alerta que es Insuficiente.
+            alert("Insuficiente.");
+          }
+            else if(cal < 6 ){
+            //muestra una alerta que es Suficiente.
+            alert("Suficiente.");
+          }
+            else if(cal < 7 ){
+              //muestra una alerta que está Bien.
+              alert("Bien");
+            }
+            else if(cal < 9){
+              //muestra una alerta que es Notable.
+              alert("Notable");
+            }
+            else if(cal >= 9){
+              alert("Sobresaliente");
+            }
+        }
+        //si la calificacion no es entre 10 y cero
+        else{
+          alert("Calificación erronea");
+          }
+        }
+        //si la calificacion no es un numero
+      else {
+        //Si se ha pulsado aceptar sin introducir nada.
+          if(cal != undefined) { //No es undefined cuando se pulsa aceptar.
+            alert("Introduce un numero valido");
+      }
+    }
+    //el bucle vuelve a iniciar mientras no se haya pulsado cancelar.
+  }  while(cal != undefined);//undefined es cuando se pulsa cancelar.
+  //termina programa
+  </script>
+  </body>
+</html>
