@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi página JS</title>
+  </head>
+  <body>
+    <script>
+      //Datos del autor de esta práctica.
+      document.write("Práctica de: Karina Bautista Bautista");
+      document.write("<br>");
+      document.write("Grupo: 605");
+      document.write("<br><br>");
+      //Pide por teclado, la edad.
+      var edad = prompt("Introduce tu edad: ");
+      //Comprueba que el valor introducido sea un número.
+      if (Number(edad) == edad) {
+        //Si es mayor de 18
+          if (edad >= 18) {
+            //Imprime en pantalla el mensaje
+            document.write("Puedes votar y pagar impuestos :'D");
+          }
+          else {
+            document.write("No puedes votar");
+          }
+      }
+      //Sinoooo xd
+      else {
+        //Muestra el siguiente mensaje
+        alert("Introduce un número válido, joven :)");
+      }
+    </script>
+  </body>
+</html>
