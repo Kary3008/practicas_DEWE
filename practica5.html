@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica 5</title>
+  </head>
+  <body>
+    <p>Esta práctica es de Karina Bautista Bautista</p>
+    <p>Grupo: 605</p>
+
+    <script>
+      //Declaramaos una variable donde vamos a concatenar las cadenas
+      var resultado = "";
+      //bucle do while para introducir varias cadenas
+      do {
+        //pedimos la cadena por teclado
+        var cadena = prompt("Introduce una cadena");
+        //si la variable resultado está vacía
+        if (resultado == "") {
+          //concatenamos sin utilizar guión
+          resultado = resultado + "-" + cadena;
+        }
+        //sino
+        else {
+          //concatenamos con guión
+          resultado = resultado + "-" + cadena;
+        }
+        //mientras se pulse aceptar en el mensaje emergente confirm
+      } while (confirm("Desea seguir?"));
+      //si se pulso cancelar imprimimos el resultado
+      document.write(resultado);
+    </script>
+  </body>
+</html>

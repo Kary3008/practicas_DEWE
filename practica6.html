@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica 6</title>
+  </head>
+  <body>
+    <script>
+      //Datos del autor de esta práctica.
+      document.write("Práctica de: Karina Bautista Bautista");
+      document.write("<br>");
+      document.write("Grupo: 605");
+      document.write("<br><br>");
+      //declaramos la variable suma
+      var suma = 0;
+      //bucle do while para introducir varios
+      do {
+        //pedimos el número por teclado
+        var numero = prompt("Introduce un número");
+        //comprobamos que lo introducido es un número
+        if(Number(numero) == numero){
+          //convertimos el número en integer
+          numero = Number(numero);
+          //sumamos lo que hay en la variable suma con ese número
+          suma = suma + numero;
+        }
+        //si lo introducido no es un número
+        else {
+          //si se pulsó aceptar sin poner un número válido
+          if (numero != undefined) {
+            alert(numero + "No es un numero");
+          }
+        }
+        //volvemos arriba mientras no se pulse cancelar
+      } while (numero != undefined);
+      //si se pulso cancelar sale del ciclo e imprime el resultado
+      document.write("La suma es...", suma);
+    </script>
+  </body>
+</html>
