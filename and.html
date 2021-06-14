@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Operador AND</title> <meta charset="utf-8">
+<script type="text/javascript">
+function mostrarMensaje1() {
+var a, b, c, d, eTexto; a = 3; b = 5; c = true; d = false; eTexto = '1';
+alert ('Valor de verdad para a+b == 8 && a-b ==1 es: ' + (a+b == 8 && a-b ==1));
+alert ('Valor de verdad para a+b == 8 && a-b ==-2 es: ' + (a+b == 8 && a-b ==-2));
+alert ('Valor de verdad para c == d es: ' + (c==d));
+alert ('Valor de verdad para c&&d es: ' + (c&&d));
+alert ('Valor de verdad para c||d es: ' + (c||d));
+alert ('Valor de verdad para !a es: ' + (!a));
+alert ('Valor de verdad para eTexto === 1: ' + (eTexto === 1));
+alert ('Valor de verdad para eTexto == 1: ' + (eTexto == 1));
+alert ('Valor de verdad para Zapato < avellano es: ' + ('Zapato'<'avellano'));
+}
+</script>
+</head>
+<body>
+<div>
+<p>Práctica con operador AND</p>
+<img onclick="mostrarMensaje1()" src="img/img2.jpg" alt="img1" title="Operador AND,
+Pulsa aquí">
+<p onclick ="alert('Alerta JavaScript')" style="background-color:yellow;">Ejemplo con operador AND.
+</p>
+</div>
+</body>
+</html>
