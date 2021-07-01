@@ -1,5 +1,5 @@
 function operadorOr() {
-  var a1 = false;
+  var a1 = true;
   var a2 = false;
   //operador Or
   var resultado1 = a1||a2;

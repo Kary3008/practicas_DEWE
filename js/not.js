@@ -2,7 +2,7 @@ function operadorNot() {
   var a1 = true;
   var a2 = false;
   //operador NOT
-  var resultado2 = !a2;
+  var resultado2 = !a1;
   alert("Resultado NOT es: " + resultado2);
 
   //PRUEBA DE ESCRITORIO.
